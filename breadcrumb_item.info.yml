@@ -1,0 +1,6 @@
+name: Breadcrumb Item
+description: Display a nth selected item in a block.
+package: Custom
+
+type: module
+core: 8.x

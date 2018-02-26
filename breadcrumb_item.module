@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * The Breadcrumb Item module allows to select an item of the breadcrumd and display it.
+ */
+
+namespace Drupal\breadcrumb_item;
+
+/**
+ * Implements hook_theme().
+ */
+function breadcrumb_item_theme() {
+  return array(
+   'breadcrumb_item_block' => array(
+            'variables' => array('title' => NULL),
+            'template' => 'block--breadcrumbitem-block',
+        ),
+  );
+}
